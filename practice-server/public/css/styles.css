@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.formDiv {
+	border: 1px solid black;
+	padding: 5px;
+	width: fit-content;
+}
+
+.formDiv label, input {
+	display: block;
+}
+
+.formLeft {
+	display:inline-block;
+}
+
+.formRight {
+	display: inline-block;
+}
+
+.formDiv button {
+	display: block;
+}

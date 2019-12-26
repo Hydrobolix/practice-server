@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Sample Site</title>
+		
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	
+	<body>
+		<h2>Submitting information to database</h2> 
+		<div class="formDiv">
+		<form action="/collected" method="post">
+			<div class="formLeft">
+				<label>Enter Name:</label>
+				<label>Enter Age:</label>
+				<label>Enter Career:</label>
+			</div>
+			
+			<div class="formRight">
+				<input type="text" name="name" />
+				<input type="number" name="age" />
+				<input type="text" name="career" />
+			</div>
+			
+			<button>Submit</button>
+		</form>
+		</div>
+		<script>
+		//document.getElementById("dataDisplay").innerHTML += "hello";
+		</script>
+	</body>
+</html>
